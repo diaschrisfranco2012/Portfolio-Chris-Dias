@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react'; // Removed the unused 'React' import
 import { 
   Sun, Moon, Github, ExternalLink, Download, 
   Mail, MapPin, Terminal, Code, User, Send, Briefcase,
@@ -72,7 +72,8 @@ export default function App() {
             </div>
             
             <h1 className="text-5xl md:text-7xl font-black tracking-tight text-slate-900 dark:text-white leading-tight">
-              Hi, I'm <br/>
+              {/* Escaped the apostrophe here */}
+              Hi, I&apos;m <br/>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 dark:from-purple-400 dark:to-pink-400 drop-shadow-sm dark:drop-shadow-[0_0_30px_rgba(168,85,247,0.4)]">
                 Chris Dias
               </span>
@@ -120,7 +121,8 @@ export default function App() {
                   I am a passionate tech enthusiast currently pursuing my Bachelor of Computer Applications (BCA) at Rosary College of Commerce & Arts. My journey in tech spans across writing clean code, designing intuitive interfaces, and bringing digital concepts into the physical world through 3D printing.
                 </p>
                 <p>
-                  Whether I'm organizing college tech events, building AI-integrated chatbots, or dialing in settings on my Bambu Lab 3D printer, I thrive on solving complex problems and learning new frameworks.
+                  {/* Escaped the apostrophe here */}
+                  Whether I&apos;m organizing college tech events, building AI-integrated chatbots, or dialing in settings on my Bambu Lab 3D printer, I thrive on solving complex problems and learning new frameworks.
                 </p>
                 <div className="flex items-center gap-2 text-slate-800 dark:text-slate-200 font-bold mt-4 bg-slate-100 dark:bg-white/5 w-max px-4 py-2 rounded-lg border border-slate-200 dark:border-white/10">
                   <MapPin className="w-5 h-5 text-pink-500" /> Based in Goa, India
@@ -266,7 +268,8 @@ export default function App() {
         <section id="contact" className="relative z-10 py-24 px-6 md:px-20 bg-slate-900 dark:bg-black text-white border-t border-slate-800 dark:border-white/10">
           <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16">
             <div>
-              <h2 className="text-5xl font-black mb-6 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">Let's Connect.</h2>
+              {/* Escaped the apostrophe here */}
+              <h2 className="text-5xl font-black mb-6 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">Let&apos;s Connect.</h2>
               <p className="text-slate-400 text-lg mb-8 leading-relaxed">
                 Whether you have a project in mind, need a developer for your team, or just want to chat about tech and 3D printing, my inbox is always open.
               </p>
@@ -291,7 +294,8 @@ export default function App() {
               </div>
               <div className="flex flex-col gap-2">
                 <label className="text-sm font-bold text-slate-400 uppercase tracking-widest">Message</label>
-                <textarea rows={4} className="bg-slate-900/50 border border-slate-700 dark:border-white/10 rounded-xl p-4 text-white focus:outline-none focus:border-purple-500 transition-colors resize-none" placeholder="Let's build something awesome..." />
+                {/* Escaped the apostrophe here */}
+                <textarea rows={4} className="bg-slate-900/50 border border-slate-700 dark:border-white/10 rounded-xl p-4 text-white focus:outline-none focus:border-purple-500 transition-colors resize-none" placeholder="Let&apos;s build something awesome..." />
               </div>
               <button type="button" className="group flex items-center justify-center gap-2 bg-white text-black py-4 rounded-xl font-black uppercase tracking-widest hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 hover:text-white transition-all duration-300">
                 Send Message <Send className="w-5 h-5 group-hover:translate-x-2 group-hover:-translate-y-1 transition-transform" />
