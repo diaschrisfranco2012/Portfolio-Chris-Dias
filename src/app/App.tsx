@@ -251,7 +251,7 @@ export default function App() {
                 Grab a copy of my resume to get a comprehensive overview of my technical skills, internship experiences, and academic achievements.
               </p>
               <a 
-                href="/chris_dias_resume.pdf" 
+                href="/ChrisDiasresume.pdf" 
                 download="Chris_Dias_Resume.pdf"
                 className="group relative px-10 py-5 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-xl font-black text-lg overflow-hidden transition-all duration-300 hover:scale-110 shadow-lg"
               >
